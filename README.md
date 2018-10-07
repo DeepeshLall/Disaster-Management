@@ -15,6 +15,13 @@ Why Disaster Management?
 Disaster Management is one of the most hotly debated topics in thwe world since it always causes a huge damage to life and property.
 Each year, millions of people are affected due to disasters and millions worth of property is damaged. 
 
+We would now discuss separately for all the parts about how do they affect and and how can we minimize their damage.
+Floods-
+They are caused by a continuous period of heavy rainfall.
+Although none of the natural disasters can be prevented, but we can help minimize the damage caused due to the floods.
+Solution
+We can generate a database using the data of all the previous years and then analyze the data of the current year to give the probabilty of floods happening at a given place. This will be helpful since the people will be warned beforehand and much of the damge would be averted. 
+
 
 Aim of our project
 We will try to implenment the data of previous years to find the probablity of the disasater occurence in real time.
