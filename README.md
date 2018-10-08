@@ -35,21 +35,21 @@ Prediction and Management of Natural Disasters :-
 Natural disasters cannot be predicted accurately, but we can estimate their occurrence with the help of some natural factors.
 For example, floods can be estimated with the amount of rainfall occurring in a particular area. Heavy rainfalls may imply flood conditions.
 Similarly, volcanic eruptions can be estimated with the help of tectonic plates movement and volcanic eruptions are also related to the history of the region.
-Tsunamis cannot be predicted but their path can be tracked and nearly accurate warnings can be given to the people abut when they would have to face the wrath of the tsunami.
+Tsunamis cannot be predicted but their path can be tracked and nearly accurate warnings can be given to the people about when they would have to face the wrath of the tsunami.
 Droughts can easily be prevented with maintaining continuous food supplies and supplying regular aid to the inhabitants out there, which would otherwise may result into a famine claiming a large number of lives.
 Earthquakes can not be predicted but several measures can significantly reduce the damage done to the life and property, like building same safe shelters and providing information to the people.
 
-Percentage loss of life and possible improvement:-
+Representation of data:-
 
 Graphical user interface with the help of maps and pointers on the maps.
 On a map, we can represent the areas which are vulnerable.
-We will also represent the degree of vulnerability for each area with the help of colors, say the most dangerous will be colored red and the least vulnerable ones will be colored blue.
+We will also represent the degree of vulnerability for each area with the help of colors, say the most dangerous will be marked red and the least vulnerable ones will be marked blue.
 We can make separate maps to signal about different types of disasters.
 
 Database and its use:-
 
 Database will store the data of previous years from the places and environment where they happened in the past,with amount of loss of property and life.
-On the map, we can also the warnings of various disasters
+On the map, we can also provide the warnings of various disasters with degree of danger and coordinate on the map.
 We will provide an interactive interface for the user to get an idea of probability of floods at his present coordinate.
 Api's used to mark certain areas in the map can be used.
 Finally we will use azure services for our hosting of webpage.
