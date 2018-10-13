@@ -101,22 +101,8 @@ button:focus {
 	padding: 0.85em;
 }
 
-.codrops-header {
-	flex-direction: column;
-	align-items: center;
-}
-
-.codrops-header__title {
-	font-weight: bold;
-	padding-bottom: 0.25em;
-	text-align: center;
-}
 
 .info {
-	margin: 0;
-}
-
-.codrops-links {
 	margin: 0;
 }
 
@@ -144,47 +130,16 @@ main {
 }
 
 /* Header */
-.codrops-header {
-	position: relative;
-	z-index: 100;
-	display: flex;
-}
-
-.codrops-header__title {
-	font-size: 1em;
-	font-weight: bold;
-	margin: 0;
-	padding: 0.75em 0;
-}
-
 .info {
 	color: var(--color-info);
 	text-align: center;
 }
 
 /* Top Navigation Style */
-.codrops-links {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	white-space: nowrap;
-}
-
-.codrops-icon {
-	display: inline-block;
-	margin: 0.15em;
-	padding: 0.25em;
-}
-
 .demos {
 	text-align: center;
 	line-height: 2;
 	margin: 1rem 0 0 0;
-}
-
-.github {
-	display: block;
 }
 
 .content {
@@ -206,20 +161,6 @@ main {
 	.message {
 		display: none;
 	}
-	
-	.codrops-header {
-		flex-direction: row;
-		align-items: flex-start;
-		align-items: center;
-		align-self: start;
-		grid-area: header;
-		justify-self: start;
-	}
-
-	.codrops-links {
-		margin-right: 1rem;
-	}
-
 	.info {
 		text-align: left;
 		margin: 0 0 0 1.25em;
