@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+
+		<title>Movie Review | Join Us</title>
+
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+
+		<style>
+		  [data-logo-loader]
+		{
+		    display: table;
+		    margin: 35px auto
+		}
+		[data-logo-loader] hr:first-child
+		{
+		    display: block;
+		    margin: 0;
+		    width: 600px; height: 360px;
+
+		    background-image: url("https://i.imgur.com/MaePTmO.png");
+		    background-repeat: no-repeat;
+		    border: none;
+
+		    opacity: 0.1
+		}
+
+		[data-logo-loader] hr:last-child
+		{
+		    transition: width 1s;
+
+		    position: absolute;
+		    display: block;
+		    margin: 0;
+		    width: 0; height: 360px;
+
+		    transform: translateY(-100%);
+
+		    background-image: url("https://i.imgur.com/MaePTmO.png");
+		    background-repeat: no-repeat;
+		    border: none
+		}
+
+		[data-logo-loader]:hover hr:last-child {
+		    width: 300px
+		}
+
+		#DivForHoverItem {
+    /*just so we can see it*/
+    height: 50px;
+    width: 300px;
+    background-color: white;
+	text-align: center;
+}
+
+#HiddenText {
+    display: none;
+}
+
+#DivForHoverItem:hover #HiddenText {
+    display:block;
+}
+		</style>
+
+
+
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+	</head>
+
+
+	<body>
+
+
+		<div id="site-content">
+			<header class="site-header">
+				<div class="container">
+					<a href="index.html" id="branding">
+						<img src="images/logo.png" alt="" class="logo">
+						<div class="logo-copy">
+							<h1 class="site-title">Ripe Cucumbers</h1>
+							<small class="site-description">Smell What is Being Cooked</small>
+						</div>
+					</a> <!-- #branding -->
+
+					<div class="main-navigation">
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item"><a href="about.html">About</a></li>
+							<li class="menu-item"><a href="review.html">Review for us</a></li>
+							<li class="menu-item"><a href="joinus.html">Join us</a></li>
+							<li class="menu-item"><a href="contact.html">Contact</a></li>
+						</ul> <!-- .menu -->
+
+
+					</div> <!-- .main-navigation -->
+
+					<div class="mobile-navigation"></div>
+				</div>
+			</header>
+			<main class="main-content">
+				<div class="container">
+					<div class="page">
+						<div class="row">
+							<div class="col-md-4">
+								<figure><img src="dummy/thumb-1.jpg" alt="figure image" height="400" width="350"></figure>
+							</div>
+							<div class="col-md-3">
+								<p class="leading">I Can Only Imagine</p>
+								<p><b>Directed by:</b><br>Andrew Erwin, Jon Erwin
+									<br>
+									<b>Cast :</b><br>
+									Madeline Carroll<br>
+									Priscila Shirer<br>
+									Trace Adkins<br>
+									<b> Release date:</b> 16 March,2018<br>
+									<b> Genre: </b>Family Drama<br>
+									<b> Our Ratings :</b>								<!--mera code-->
+									Hit:70%
+									Average:13%
+									Flop:17%
+									<h1 class="site-title">83%</h1>
+									<b> Our Verdict : </b><h1>										Potential Hit</h1>
+
+
+
+								</p>
+							</div>
+							<div class="col-md-3">
+								<figure data-logo-loader>
+									<hr>
+									<hr>
+								</figure>
+						</div>
+						</div>
+
+
+					</main>
+<footer class="site-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">About Us</h3>
+								<p>We are the newest idea in the cinema bizz and you have to visit us. That is all.</p>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Recent Review</h3>
+								<ul class="no-bullet">
+									<li>The use of the word</li>
+									<li>'Recent' is redundant</li>
+									<li>We always have an</li>
+									<li>awesome review.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Help Center</h3>
+								<ul class="no-bullet">
+									<li>You don't actually</li>
+									<li>need our help. This</li>
+									<li>site is more friendly</li>
+									<li>than your friend.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Join Us</h3>
+								<ul class="no-bullet">
+									<li>You don't know the</li>
+									<li>best feeling ever;</li>
+									<li>to be a part of</li>
+									<li>Ripe Cucumbers.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Social Media</h3>
+								<ul class="no-bullet">
+								<li><a href="https://www.facebook.com/Ripe-Cucumbers-1758567827538415/">Facebook</a></li>
+									<li><a href="https://twitter.com/RipeCucumbers?ref_src=twsrc%5Etfw" >Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+									<li><a href="https://plus.google.com/u/0/117180253117941301641">Google+</a></li>
+									<li><a href="https://www.pinterest.com/ripecucumbers/pins/">Pinterest</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Newsletter</h3><div class="createsend-button" style="height:27px;display:inline-block;" data-listid="j/B5/B7F/351/0C5F2C3AF92E32D9">
+</div><script type="text/javascript">(function () { var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true; e.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://btn.createsend1.com/js/sb.min.js?v=3'; e.className = 'createsend-script'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s); })();</script>
+
+							</div>
+						</div>
+					</div> <!-- .row -->
+
+					<div class="colophon"><center>This was tough to design and hence <br>Copyright &copy; Ripe Cucumbers 2018 | All rights reserved </center></div>
+				</div> <!-- .container -->
+
+			</footer>
+		</div>
+		<!-- Default snippet for navigation -->
+
+
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+
+	</body>
+
+</html>
