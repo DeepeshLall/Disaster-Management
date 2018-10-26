@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
 
-		<title>Movie Review</title>
+		<title>Disaster Mangement</title>
 
 		<!-- Loading third party fonts -->
 		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
@@ -42,11 +42,12 @@
 					<div class="main-navigation">
 						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
 						<ul class="menu">
-							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
-							<li class="menu-item"><a href="about.html">About</a></li>
-							<li class="menu-item"><a href="review.html">Review for us</a></li>
-							<li class="menu-item"><a href="joinus.html">Join us</a></li>
-							<li class="menu-item"><a href="contact.html">Contact</a></li>
+							<li class="menu-item current-menu-item"><a href="index.html">Prediction</a></li>
+							<li class="menu-item"><a href="../weather_final/index1.html">Home</a></li>
+							<li class="menu-item"><a href="../About/about.html">About</a></li>
+							<li class="menu-item"><a href="../About/review.html">Review for us</a></li>
+							<li class="menu-item"><a href="../About/joinus.html">Join us</a></li>
+							<li class="menu-item"><a href="../About/contact.html">Contact</a></li>
 						</ul> <!-- .menu -->
 
 
