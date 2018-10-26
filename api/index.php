@@ -32,10 +32,10 @@
 			<header class="site-header">
 				<div class="container">
 					<a href="index.html" id="branding">
-						<img src="images/logo.png" alt="" class="logo">
+						<img src="dummy/img5.jpeg" alt="" class="logo" style="height:30px; width:45px">
 						<div class="logo-copy">
-							<h1 class="site-title">Ripe Cucumbers</h1>
-							<small class="site-description">Smell What is Being Cooked</small>
+							<h1 class="site-title">Disaster Management</h1>
+							<small class="site-description">Save Yourself!!!</small>
 						</div>
 					</a> <!-- #branding -->
 
@@ -410,7 +410,7 @@
 						<div class="col-md-2">
 							<div class="widget">
 								<h3 class="widget-title">About Us</h3>
-								<p>We are the newest idea in the cinema bizz and you have to visit us. That is all.</p>
+								<p>We are the newest idea for diasater management and you have to visit us. That is all.</p>
 							</div>
 						</div>
 						<div class="col-md-2">
@@ -442,7 +442,7 @@
 									<li>You don't know the</li>
 									<li>best feeling ever;</li>
 									<li>to be a part of</li>
-									<li>Ripe Cucmbers.</li>
+									<li>Disaster Management.</li>
 								</ul>
 							</div>
 						</div>
@@ -450,25 +450,24 @@
 							<div class="widget">
 								<h3 class="widget-title">Social Media</h3>
 								<ul class="no-bullet">
-									<li><a href="https://www.facebook.com/Ripe-Cucumbers-1758567827538415/">Facebook</a></li>
-									<li><a href="https://twitter.com/RipeCucumbers?ref_src=twsrc%5Etfw" >Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
-									<li><a href="https://plus.google.com/u/0/117180253117941301641">Google+</a></li>
-									<li><a href="https://www.pinterest.com/ripecucumbers/pins/">Pinterest</a></li>
+									<li><a href="">Facebook</a></li>
+									<li><a href="" >Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+									<li><a href="">Google+</a></li>
+									<li><a href="">Pinterest</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="col-md-2">
 							<div class="widget">
-								<h3 class="widget-title">Newsletter</h3>
-								<div class="createsend-button" style="height:27px;display:inline-block;" data-listid="j/B5/B7F/351/0C5F2C3AF92E32D9">
+								<h3 class="widget-title">Newsletter</h3><div class="createsend-button" style="height:27px;display:inline-block;" data-listid="j/B5/B7F/351/0C5F2C3AF92E32D9">
 </div><script type="text/javascript">(function () { var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true; e.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://btn.createsend1.com/js/sb.min.js?v=3'; e.className = 'createsend-script'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s); })();</script>
-								</div>
+
+							</div>
 						</div>
 					</div> <!-- .row -->
 
-					<div class="colophon"><center>This was tough to design and hence <br>Copyright &copy; Ripe Cucumbers 2018 | All rights reserved </center></div>
-				</div> <!-- .container -->
-
+					<div class="colophon"><center>This was tough to design and hence <br>Copyright Disaster Management 2018 | All rights reserved </center></div>
+				</div>
 			</footer>
 		</div>
 		<!-- Default snippet for navigation -->
