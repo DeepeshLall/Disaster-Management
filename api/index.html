@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+
+		<title>Movie Review</title>
+
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css" rel="stylesheet" type="text/css">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+
+	</head>
+
+
+	<body>
+
+
+		<div id="site-content">
+			<header class="site-header">
+				<div class="container">
+					<a href="index.html" id="branding">
+						<img src="images/logo.png" alt="" class="logo">
+						<div class="logo-copy">
+							<h1 class="site-title">Ripe Cucumbers</h1>
+							<small class="site-description">Smell What is Being Cooked</small>
+						</div>
+					</a> <!-- #branding -->
+
+					<div class="main-navigation">
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item"><a href="about.html">About</a></li>
+							<li class="menu-item"><a href="review.html">Review for us</a></li>
+							<li class="menu-item"><a href="joinus.html">Join us</a></li>
+							<li class="menu-item"><a href="contact.html">Contact</a></li>
+						</ul> <!-- .menu -->
+
+
+					<div class="mobile-navigation"></div>
+				</div>
+			</header>
+			<main class="main-content">
+				<div class="container">
+
+    			<form class="well form-horizontal" action=" " method="post"  id="contact_form">
+						<fieldset>
+
+						<!-- Form Name -->
+						<legend>Predict The Thunderstorm possibility!</legend>
+
+						<!-- Text input-->
+
+						<div class="form-group">
+						  <label class="col-md-4 control-label">Temperature</label>
+						  <div class="col-md-4 inputGroupContainer">
+						  <div class="input-group">
+						  <span class="input-group-addon"></span>
+						  <input  name="first_name" placeholder="Temperature(in F)" class="form-control"  type="text">
+						    </div>
+						  </div>
+						</div>
+
+						<!-- Text input-->
+
+						<div class="form-group">
+						  <label class="col-md-4 control-label" >Highest Temperature</label>
+						    <div class="col-md-4 inputGroupContainer">
+						    <div class="input-group">
+						  <span class="input-group-addon"></span>
+						  <input name="last_name" placeholder="Highest Temperature(in F)" class="form-control"  type="text">
+						    </div>
+						  </div>
+						</div>
+
+						<div class="form-group">
+						  <label class="col-md-4 control-label" >Average Temperature</label>
+						    <div class="col-md-4 inputGroupContainer">
+						    <div class="input-group">
+						  <span class="input-group-addon"></span>
+						  <input name="last_name" placeholder="Average Temperature(in F)" class="form-control"  type="text">
+						    </div>
+						  </div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-md-4 control-label" >Lowest Temperature</label>
+								<div class="col-md-4 inputGroupContainer">
+								<div class="input-group">
+							<span class="input-group-addon"></span>
+							<input name="last_name" placeholder="Lowest Temperature(in F)" class="form-control"  type="text">
+								</div>
+							</div>
+						</div>
+
+						<!-- Text input-->
+
+
+
+						<div class="form-group">
+						  <label class="col-md-4 control-label">City</label>
+						    <div class="col-md-4 inputGroupContainer">
+						    <div class="input-group">
+						        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+						  <!-- <input name="city" placeholder="city" class="form-control"  type="text"> -->Austin
+						    </div>
+						  </div>
+						</div>
+
+						<!-- Select Basic -->
+
+						<div class="form-group">
+						  <label class="col-md-4 control-label">State</label>
+						    <div class="col-md-4 selectContainer">
+						    <div class="input-group">
+						        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+						    <select name="state" class="form-control selectpicker" >
+						      <!-- <option value=" " >Please select your state</option> -->
+						      <option >Texas</option>
+						    </select>
+						  </div>
+						</div>
+						</div>
+
+						<!-- Text input-->
+
+						<div class="form-group">
+						  <label class="col-md-4 control-label">Zip Code</label>
+						    <div class="col-md-4 inputGroupContainer">
+						    <div class="input-group">
+						        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+						  <input name="zip" placeholder="Zip Code" class="form-control"  type="text">
+						    </div>
+						</div>
+						</div>
+
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label">Website or domain name</label>
+						   <div class="col-md-4 inputGroupContainer">
+						    <div class="input-group">
+						        <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
+						  <input name="website" placeholder="Website or domain name" class="form-control" type="text">
+						    </div>
+						  </div>
+						</div>
+
+						<!-- radio checks -->
+						 <div class="form-group">
+						                        <label class="col-md-4 control-label">Do you have hosting?</label>
+						                        <div class="col-md-4">
+						                            <div class="radio">
+						                                <label>
+						                                    <input type="radio" name="hosting" value="yes" /> Yes
+						                                </label>
+						                            </div>
+						                            <div class="radio">
+						                                <label>
+						                                    <input type="radio" name="hosting" value="no" /> No
+						                                </label>
+						                            </div>
+						                        </div>
+						                    </div>
+
+						<!-- Text area -->
+
+						<div class="form-group">
+						  <label class="col-md-4 control-label">Project Description</label>
+						    <div class="col-md-4 inputGroupContainer">
+						    <div class="input-group">
+						        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+						        	<textarea class="form-control" name="comment" placeholder="Project Description"></textarea>
+						  </div>
+						  </div>
+						</div>
+
+						<!-- Success message -->
+						<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+
+						<!-- Button -->
+						<div class="form-group">
+						  <label class="col-md-4 control-label"></label>
+						  <div class="col-md-4">
+						    <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+						  </div>
+						</div>
+
+						</fieldset>
+					</form>
+				</div>
+    </div><!-- /.container -->
+			</main>
+			<footer class="site-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">About Us</h3>
+								<p>We are the newest idea in the cinema bizz and you have to visit us. That is all.</p>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Recent Review</h3>
+								<ul class="no-bullet">
+									<li>The use of the word</li>
+									<li>'Recent' is redundant</li>
+									<li>We always have an</li>
+									<li>awesome review.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Help Center</h3>
+								<ul class="no-bullet">
+									<li>You don't actually</li>
+									<li>need our help. This</li>
+									<li>site is more friendly</li>
+									<li>than your friend.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Join Us</h3>
+								<ul class="no-bullet">
+									<li>You don't know the</li>
+									<li>best feeling ever;</li>
+									<li>to be a part of</li>
+									<li>Ripe Cucmbers.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Social Media</h3>
+								<ul class="no-bullet">
+									<li><a href="https://www.facebook.com/Ripe-Cucumbers-1758567827538415/">Facebook</a></li>
+									<li><a href="https://twitter.com/RipeCucumbers?ref_src=twsrc%5Etfw" >Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+									<li><a href="https://plus.google.com/u/0/117180253117941301641">Google+</a></li>
+									<li><a href="https://www.pinterest.com/ripecucumbers/pins/">Pinterest</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Newsletter</h3>
+								<div class="createsend-button" style="height:27px;display:inline-block;" data-listid="j/B5/B7F/351/0C5F2C3AF92E32D9">
+</div><script type="text/javascript">(function () { var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true; e.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://btn.createsend1.com/js/sb.min.js?v=3'; e.className = 'createsend-script'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s); })();</script>
+								</div>
+						</div>
+					</div> <!-- .row -->
+
+					<div class="colophon"><center>This was tough to design and hence <br>Copyright &copy; Ripe Cucumbers 2018 | All rights reserved </center></div>
+				</div> <!-- .container -->
+
+			</footer>
+		</div>
+		<!-- Default snippet for navigation -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js" type="text/javascript"></script>
+
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+
+</html>
