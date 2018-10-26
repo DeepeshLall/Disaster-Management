@@ -51,3 +51,12 @@ On the map, we can also provide the warnings of various disasters with degree of
 We will provide an interactive interface for the user to get an idea of probability of floods at his present coordinate.
 Api's used to mark certain areas in the map can be used.
 Finally we will use azure services for our hosting of webpage.
+
+Future Scope of our Project:-
+
+Currently, we have used meteorological data from just one city, Austin.
+If we had better api's and real time data access, then we could well have made our app universal.
+Currently our app just predicts thunderstorm, but in future we can also include many other natural disasters like floods and earthquakes and many other natural disasters.
+We could also have made real time prediction for all the cities had we been allowed access to scrapping of data from meteorological websites.
+We may also collaborate with any government agency who would provide us with such weather data which we can later process.
+We may also have used better neural networks.
