@@ -28,8 +28,6 @@
 
 
 	<body>
-
-
 		<div id="site-content">
 			<header class="site-header">
 				<div class="container">
@@ -58,7 +56,7 @@
 			<main class="main-content">
 				<div class="container">
 
-    			<form class="well form-horizontal" action=" " method="post"  id="contact_form">
+    			<form class="well form-horizontal" action="index.php" method="POST"  id="contact_form">
 						<fieldset>
 
 						<!-- Form Name -->
@@ -67,11 +65,11 @@
 						<!-- Text input-->
 
 						<div class="form-group">
-						  <label class="col-md-4 control-label">Temperature</label>
+						  <label class="col-md-4 control-label">Highest Temperature</label>
 						  <div class="col-md-4 inputGroupContainer">
 						  <div class="input-group">
 						  <span class="input-group-addon"></span>
-						  <input  name="TempF" placeholder="Temperature(in F)" class="form-control"  type="text">
+						  <input  name="Hightemp" placeholder="Highest Temperature(in F)" class="form-control"  type="text">
 						    </div>
 						  </div>
 						</div>
@@ -79,21 +77,11 @@
 						<!-- Text input-->
 
 						<div class="form-group">
-						  <label class="col-md-4 control-label" >Highest Temperature</label>
-						    <div class="col-md-4 inputGroupContainer">
-						    <div class="input-group">
-						  <span class="input-group-addon"></span>
-						  <input name="TempHighF" placeholder="Highest Temperature(in F)" class="form-control"  type="text">
-						    </div>
-						  </div>
-						</div>
-
-						<div class="form-group">
 						  <label class="col-md-4 control-label" >Average Temperature</label>
 						    <div class="col-md-4 inputGroupContainer">
 						    <div class="input-group">
 						  <span class="input-group-addon"></span>
-						  <input name="TempAvgF" placeholder="Average Temperature(in F)" class="form-control"  type="text">
+						  <input name="Avgtemp" placeholder="Average Temperature(in F)" class="form-control"  type="text">
 						    </div>
 						  </div>
 						</div>
@@ -103,7 +91,7 @@
 								<div class="col-md-4 inputGroupContainer">
 								<div class="input-group">
 							<span class="input-group-addon"></span>
-							<input name="TempLowF" placeholder="Lowest Temperature(in F)" class="form-control"  type="text">
+							<input name="Lowtemp" placeholder="Lowest Temperature(in F)" class="form-control"  type="text">
 								</div>
 							</div>
 						</div>
@@ -113,7 +101,7 @@
 								<div class="col-md-4 inputGroupContainer">
 								<div class="input-group">
 							<span class="input-group-addon"></span>
-							<input name="DewPointHighF" placeholder="Highest Dew Point(in F)" class="form-control"  type="text">
+							<input name="DewPointHigh" placeholder="Highest Dew Point(in F)" class="form-control"  type="text">
 								</div>
 							</div>
 						</div>
@@ -123,7 +111,7 @@
 								<div class="col-md-4 inputGroupContainer">
 								<div class="input-group">
 							<span class="input-group-addon"></span>
-							<input name="DewPointLowF" placeholder="Lowest Dew Point(in F)" class="form-control"  type="text">
+							<input name="DewPointLow" placeholder="Lowest Dew Point(in F)" class="form-control"  type="text">
 								</div>
 							</div>
 						</div>
@@ -133,7 +121,7 @@
 								<div class="col-md-4 inputGroupContainer">
 								<div class="input-group">
 							<span class="input-group-addon"></span>
-							<input name="DewPointAvgF" placeholder="Average Dew Point(in F)" class="form-control"  type="text">
+							<input name="DewPointAvg" placeholder="Average Dew Point(in F)" class="form-control"  type="text">
 								</div>
 							</div>
 						</div>
@@ -143,7 +131,7 @@
 								<div class="col-md-4 inputGroupContainer">
 								<div class="input-group">
 							<span class="input-group-addon"></span>
-							<input name="HumidityHighPercent" placeholder="Highest Humidity (in %)" class="form-control"  type="text">
+							<input name="HumidityHigh" placeholder="Highest Humidity (in %)" class="form-control"  type="text">
 								</div>
 							</div>
 						</div>
@@ -153,7 +141,7 @@
 								<div class="col-md-4 inputGroupContainer">
 								<div class="input-group">
 							<span class="input-group-addon"></span>
-							<input name="HumidityAvgPercent" placeholder="Average Humidity (in %)" class="form-control"  type="text">
+							<input name="HumidityAvg" placeholder="Average Humidity (in %)" class="form-control"  type="text">
 								</div>
 							</div>
 						</div>
@@ -163,7 +151,7 @@
 								<div class="col-md-4 inputGroupContainer">
 								<div class="input-group">
 							<span class="input-group-addon"></span>
-							<input name="HumidityLowPercent" placeholder="Lowest Humidity (in %)" class="form-control"  type="text">
+							<input name="HumidityLow" placeholder="Lowest Humidity (in %)" class="form-control"  type="text">
 								</div>
 							</div>
 						</div>
@@ -173,7 +161,7 @@
 								<div class="col-md-4 inputGroupContainer">
 								<div class="input-group">
 							<span class="input-group-addon"></span>
-							<input name="SeaLevelPressureHighInches" placeholder="Highest Sea Level Pressure (in inches)" class="form-control"  type="text">
+							<input name="SeaLevelPressureHigh" placeholder="Highest Sea Level Pressure (in inches)" class="form-control"  type="text">
 								</div>
 							</div>
 						</div>
@@ -183,7 +171,7 @@
 								<div class="col-md-4 inputGroupContainer">
 								<div class="input-group">
 							<span class="input-group-addon"></span>
-							<input name="SeaLevelPressureAvgInches" placeholder="Average Sea Level Pressure (in inches)" class="form-control"  type="text">
+							<input name="SeaLevelPressureAvg" placeholder="Average Sea Level Pressure (in inches)" class="form-control"  type="text">
 								</div>
 							</div>
 						</div>
@@ -193,7 +181,7 @@
 								<div class="col-md-4 inputGroupContainer">
 								<div class="input-group">
 							<span class="input-group-addon"></span>
-							<input name="SeaLevelPressureLowInches" placeholder="Lowest Sea Level Pressure (in inches)" class="form-control"  type="text">
+							<input name="SeaLevelPressureLow" placeholder="Lowest Sea Level Pressure (in inches)" class="form-control"  type="text">
 								</div>
 							</div>
 						</div>
@@ -299,12 +287,12 @@
 
 						<!-- Text input-->
 
-						
+
 						<!-- Button -->
 						<div class="form-group">
 						  <label class="col-md-4 control-label"></label>
 						  <div class="col-md-4">
-						    <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+						    <button type="submit" class="btn btn-warning" name="submit" >Send <span class="glyphicon glyphicon-send"></span></button>
 						  </div>
 						</div>
 
@@ -312,7 +300,110 @@
 					</form>
 				</div>
     </div><!-- /.container -->
+
+
+
+
 			</main>
+			<?php
+				if(isset($_POST['submit'])){
+					$Hightemp = $_POST['Hightemp'];
+					$Avgtemp = $_POST['Avgtemp'];
+					$Lowtemp = $_POST['Lowtemp'];
+					$DewPointHigh = $_POST['DewPointHigh'];
+					$DewPointAvg = $_POST['DewPointAvg'];
+					$DewPointLow = $_POST['DewPointLow'];
+					$HumidityHigh = $_POST['HumidityHigh'];
+					$HumidityAvg = $_POST['HumidityAvg'];
+					$HumidityLow = $_POST['HumidityLow'];
+					$SeaLevelPressureHigh = $_POST['SeaLevelPressureHigh'];
+					$SeaLevelPressureAvg = $_POST['SeaLevelPressureAvg'];
+					$SeaLevelPressureLow = $_POST['SeaLevelPressureLow'];
+					$VisibilityHighMiles = $_POST['VisibilityHighMiles'];
+					$VisibilityAvgMiles = $_POST['VisibilityAvgMiles'];
+					$VisibilityLowMiles = $_POST['VisibilityLowMiles'];
+					$WindHighMPH = $_POST['WindHighMPH'];
+					$WindAvgMPH = $_POST['WindAvgMPH'];
+					$WindGustMPH = $_POST['WindGustMPH'];
+					$PrecipitationSumInches = $_POST['PrecipitationSumInches'];
+
+					$str = '{
+			"Inputs":{
+					"input1": {
+						"ColumnNames": [
+							"TempHighF",
+							"TempAvgF",
+							"TempLowF",
+							"DewPointHighF",
+							"DewPointAvgF",
+							"DewPointLowF",
+							"HumidityHighPercent",
+							"HumidityAvgPercent",
+							"HumidityLowPercent",
+							"SeaLevelPressureHighInches",
+							"SeaLevelPressureAvgInches",
+							"SeaLevelPressureLowInches",
+							"VisibilityHighMiles",
+							"VisibilityAvgMiles",
+							"VisibilityLowMiles",
+							"WindHighMPH",
+							"WindAvgMPH",
+							"WindGustMPH",
+							"PrecipitationSumInches"
+						],
+						"Values": [
+							[
+								"'.$Hightemp.'",
+								"'.$Avgtemp.'",
+								"'.$Lowtemp.'",
+								"'.$DewPointHigh.'",
+								"'.$DewPointAvg.'",
+								"'.$DewPointLow.'",
+								"'.$HumidityHigh.'",
+								"'.$HumidityAvg.'",
+								"'.$HumidityLow.'",
+								"'.$SeaLevelPressureHigh.'",
+								"'.$SeaLevelPressureAvg.'",
+								"'.$SeaLevelPressureLow.'",
+								"'.$VisibilityHighMiles.'",
+								"'.$VisibilityAvgMiles.'",
+								"'.$VisibilityLowMiles.'",
+								"'.$WindHighMPH.'",
+								"'.$WindAvgMPH.'",
+								"'.$WindGustMPH.'",
+								"'.$PrecipitationSumInches.'"
+							]
+						]
+					}
+				},
+				"GlobalParameters": {}
+			} ';
+
+					//$body = json_encode($data);
+					//echo $body;
+
+					$url = 'https://ussouthcentral.services.azureml.net/workspaces/75db7323ce3148c385c6e3493a168335/services/4cc21d07da91497085c8925c46106808/execute?api-version=2.0&details=true';
+					$api_key = 'uzPcr8K9qMmCcIfH7ubqlMlbtLocORGUZEA+N0MEQb43uOM0q9C5EXfMFiYRw9hvZFgSimhlwchECQoCVoOY7g==';
+
+					$ch = curl_init($url);
+					// curl_setopt($ch,CURLOPT_URL,$url);
+					curl_setopt($ch,CURLOPT_POST,1);
+					curl_setopt($ch,CURLOPT_POSTFIELDS,$str);
+
+					$headers = array("Content-Type:application/json", "Authorization:Bearer " . $api_key,"Accept: application/json");
+					//$myarr[""] = "";
+					//$myarr[""] = "Bearer " . $api_key;
+					curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+					//ADD 'Content-Type':'application/json',
+
+					curl_setopt($ch,CURLOPT_RETURNTRANSFER, true);
+					$response = curl_exec($ch);
+					// echo $response;
+					curl_close($ch);
+					$result = json_decode($response);
+					echo "<script>alert(".$result->Results->output1->value->Values[0][1]*100 .")</script>";
+				}
+			?>
 			<footer class="site-footer">
 				<div class="container">
 					<div class="row">
